@@ -34,7 +34,7 @@ wav2vec_scratch/
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/wav2vec_scratch.git
+git clone https://github.com/RabehOmrani/wav2vec_scratch.git
 cd wav2vec_scratch
 ```
 
@@ -150,9 +150,9 @@ This will generate:
 
 ### Contrastive Loss
 Standard contrastive predictive coding loss as described in the paper:
-$$
+\[
 L_k = -log σ(z_{i+k}^T W_k c_i) + λ ∑_{neg} log σ(-z̃^T W_k c_i)
-$$
+\]
 
 ### InfoNCE Loss
 Alternative InfoNCE implementation for more stable training:
